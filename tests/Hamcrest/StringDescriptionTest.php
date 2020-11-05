@@ -23,7 +23,7 @@ class StringDescriptionTest extends TestCase
 
     private $_description;
 
-    protected function setUp()
+    protected function setup(): void
     {
         $this->_description = new \Hamcrest\StringDescription();
     }
